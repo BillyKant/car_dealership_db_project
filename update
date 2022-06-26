@@ -1,0 +1,13 @@
+-- My computer crashed, so most of my queries to insert data were lost when the file didn't save
+
+SELECT * 
+FROM mechanic_schedule;
+
+-- Inserting into servie_order table
+INSERT INTO service_schedule(service_order_id,service_id)
+    VALUES(2,2);
+    
+UPDATE part
+SET "name" = 'tires'
+WHERE part_id = 1;
+    
